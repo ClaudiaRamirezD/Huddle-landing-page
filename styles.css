@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 1.125rem;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 375px;
+
+}
+
+h1,
+h2 {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+p {
+    opacity: 0.7;
+}
+
+
+.sec-1 {
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.header-logo {
+    width: 6rem;
+}
+
+header {
+    display: flex;
+    padding: 1.2rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+
+    border: none;
+    background: none;
+    padding: .3rem 0rem;
+    font-size: .6rem;
+    border-radius: 2rem;
+}
+
+.colorless {
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    color: hsl(192, 100%, 9%);
+    width: 30%;
+    font-weight: 700;
+
+}
+
+.landing{
+    padding-top: 3.7rem;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.landing-text{
+    padding-top: 1.3rem;
+    padding-bottom: 1.9rem;
+    font-size: .95rem ;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    opacity: 1;
+    line-height: 1.4rem;
+}
+
+.pink{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 75%;
+    font-weight: 700;
+    padding: .7rem 0;
+    font-size: .65rem;
+    
+}
+
+.mockup{
+    padding-top: 3.1rem;
+    padding-bottom: 1.8rem;
+}
+
+.sec-2{
+    padding-top: 3.5rem;
+    padding-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.cards, .box{
+    
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 16px 9px;
+    width: 90%;
+    margin: auto;
+    padding: 3.3rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+    border-radius: 15px;
+}
+
+
+
+.cards img{
+    height: 11.5rem;
+}
+
+.text h2{
+    color: hsl(192, 100%, 9%);
+}
+
+.text p{
+    font-size: .8rem;
+    padding-top: 1rem;
+    color:hsl(192, 100%, 9%);
+    line-height: 1.2rem;
+}
+
+.card-1 .text{
+    order: 2;
+}
+
+.grow{
+    order: 1;
+    
+}
+
+.card-3 .text{
+    order: 2;
+}
+
+footer{
+    background-color:hsl(192, 100%, 9%);
+    color:white;
+    
+}
+
+.box{
+   
+    z-index: 2;
+    background-color: white;
+    align-items: center;
+    gap: 1rem;
+    padding: 2.6rem 0 2.4rem 0;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: -20%;
+    display: inline-block;
+}
+
+.box h2{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1.4rem;
+}
+
+.box .pink{
+    width: 65%;
+}
+
+.container{
+    padding: 7rem 1rem 2rem 1rem;
+}
+
+.logo-white{
+    width: 50%;
+}
+
+.info{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.info p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.info img{
+    width: 1rem;
+    height: 1rem;
+    
+}
+
+.footer-middle{
+    padding-top: 3.3rem;
+}
+
+li{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 1.2rem;
+    font-weight: 400;
+}
+
+.img-borde{
+    border: 1px solid white;
+    padding: .5rem;
+    border-radius: 100px;
+    width: 1.9rem;
+    height: 1.9rem;
+}
+
+.footer-right{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.copyright{
+    padding-top: 1.5rem;
+    font-size: .6rem;
+    text-align: center;
+    font-weight: 400;
+}
