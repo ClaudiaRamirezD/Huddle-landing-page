@@ -61,56 +61,57 @@ button {
     padding: .3rem 0rem;
     font-size: .6rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .colorless {
 
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
     color: hsl(192, 100%, 9%);
     width: 30%;
     font-weight: 700;
 
 }
 
-.landing{
+.landing {
     padding-top: 3.7rem;
     width: 80%;
     margin: auto;
     align-content: center;
 }
 
-h1{
+h1 {
     font-size: 1.4rem;
     font-weight: 600;
 }
 
-.landing-text{
+.landing-text {
     padding-top: 1.3rem;
     padding-bottom: 1.9rem;
-    font-size: .95rem ;
+    font-size: .95rem;
     font-weight: 400;
     color: hsl(192, 100%, 9%);
     opacity: 1;
     line-height: 1.4rem;
 }
 
-.pink{
+.pink {
     background-color: hsl(322, 100%, 66%);
     color: white;
     width: 75%;
     font-weight: 700;
     padding: .7rem 0;
     font-size: .65rem;
-    
+
 }
 
-.mockup{
+.mockup {
     padding-top: 3.1rem;
     padding-bottom: 1.8rem;
 }
 
-.sec-2{
+.sec-2 {
     padding-top: 3.5rem;
     padding-bottom: 7rem;
     display: flex;
@@ -118,8 +119,9 @@ h1{
     gap: 2.5rem;
 }
 
-.cards, .box{
-    
+.cards,
+.box {
+
     box-shadow: rgb(0 0 0 / 5%) 0px 0px 16px 9px;
     width: 90%;
     margin: auto;
@@ -132,42 +134,48 @@ h1{
 
 
 
-.cards img{
+.cards img {
     height: 11.5rem;
 }
 
-.text h2{
+.text h2 {
     color: hsl(192, 100%, 9%);
 }
 
-.text p{
+.text p {
     font-size: .8rem;
     padding-top: 1rem;
-    color:hsl(192, 100%, 9%);
+    color: hsl(192, 100%, 9%);
     line-height: 1.2rem;
 }
 
-.card-1 .text{
+.card-1 .text {
     order: 2;
 }
 
-.grow{
+.grow {
     order: 1;
-    
+
 }
 
-.card-3 .text{
+.card-3 .text {
     order: 2;
 }
 
-footer{
-    background-color:hsl(192, 100%, 9%);
-    color:white;
-    
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+
 }
 
-.box{
-   
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.box {
+
     z-index: 2;
     background-color: white;
     align-items: center;
@@ -178,25 +186,27 @@ footer{
     display: inline-block;
 }
 
-.box h2{
+.box h2 {
     font-size: 1rem;
     font-weight: 600;
     padding-bottom: 1.4rem;
 }
 
-.box .pink{
+.box .pink {
     width: 65%;
 }
 
-.container{
-    padding: 7rem 1rem 2rem 1rem;
+.container {
+    padding: 0.2rem 1rem 2rem 1rem;
 }
 
-.logo-white{
+.logo-white {
     width: 50%;
+    padding-top: 7rem;
+    padding-left: 1rem;
 }
 
-.info{
+.info {
     display: flex;
     padding-top: 1rem;
     justify-content: flex-start;
@@ -204,29 +214,29 @@ footer{
     gap: 1rem;
 }
 
-.info p{
+.info p {
     font-size: 1rem;
     font-weight: 400;
 }
 
-.info img{
+.info img {
     width: 1rem;
     height: 1rem;
-    
+
 }
 
-.footer-middle{
+.footer-middle {
     padding-top: 3.3rem;
 }
 
-li{
+li {
     list-style: none;
     font-size: 1rem;
     padding-bottom: 1.2rem;
     font-weight: 400;
 }
 
-.img-borde{
+.img-borde {
     border: 1px solid white;
     padding: .5rem;
     border-radius: 100px;
@@ -234,7 +244,7 @@ li{
     height: 1.9rem;
 }
 
-.footer-right{
+.footer-right {
     padding-top: 2rem;
     display: flex;
     justify-content: center;
@@ -242,9 +252,246 @@ li{
 
 }
 
-.copyright{
+
+
+/* svg{
+     border: 1px solid white;
+     padding: .5rem;
+     border-radius: 100px;
+     width: 1.9rem;
+     height: 1.9rem;
+} */
+
+.copyright {
     padding-top: 1.5rem;
     font-size: .6rem;
     text-align: center;
     font-weight: 400;
+}
+
+@media(min-width:600px) {
+
+    .sec-1 {
+        background-image: url(/images/bg-hero-desktop.svg);
+        background-color: hsl(191°, 89%, 96%);
+    }
+
+
+    header {
+        padding: 2.1rem 3.6rem;
+    }
+
+    .header-logo {
+        width: 9rem;
+    }
+
+    .colorless {
+        width: 16%;
+    }
+
+    .colorless:hover {
+        color: hsl(208, 11%, 55%);
+    }
+
+    button {
+        padding: 0.65rem 0rem;
+    }
+
+    .landing {
+        padding-top: 0;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        align-items: center;
+    }
+
+    .landing h1 {
+        font-size: 1.8rem;
+        text-align: start;
+        color: hsl(192, 100%, 9%);
+    }
+
+    .landing-text {
+        text-align: start;
+        padding-top: 1.1rem;
+        padding-bottom: 1.6rem;
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+        padding: 0 3.5rem;
+        padding-right: 2rem;
+        align-content: flex-start;
+
+    }
+
+    .pink {
+        width: 53%;
+        padding: .8rem 0;
+    }
+
+    .pink:hover {
+        background-color: hsla(322, 100%, 66%, 0.603);
+    }
+
+    .right {
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .mockup {
+        width: 89%;
+        padding-top: 1.2rem;
+        padding-bottom: 2rem;
+
+
+    }
+
+    .sec-2 {
+        padding-top: 7.3rem;
+    }
+
+    .cards {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 85%;
+        padding-left: 2.4rem;
+        padding: 2.5rem 0 2.5rem 1rem;
+    }
+
+    .cards .text {
+        width: 45%;
+    }
+
+    .card-1 .text {
+        order: 1;
+
+    }
+
+    .text {
+        text-align: start;
+        padding-left: 2rem;
+    }
+
+    .text h2{
+        font-size: 1.3rem;
+    }
+
+    .text p{
+        padding-top: .5rem;
+    }
+
+    .grow {
+        order: 2;
+
+    }
+
+    .cards img {
+        width: 34%;
+        height: auto;
+        
+        
+    }
+
+    .card-3 .text {
+        order: 1;
+    }
+
+    .users{
+        order: 2;
+    }
+
+    .flowing{
+        padding-left: 2rem;
+        
+    }
+
+    #flow{
+        width: 40%
+    }
+
+    .box{
+      width:55%;
+      padding: 2.9rem 0 2.4rem 0;
+    }
+
+    .box h2{
+        font-size: 1.5rem;
+    }
+
+    .box .pink{
+        padding: 1.3rem 0;
+        font-size: .8rem;
+        width: 50%;
+    }
+
+
+   .logo-white {
+       padding-top: 6rem;
+       width: 19%;
+       padding-left: 6.5rem;
+   }
+
+    .container{
+        padding: 0;
+        display: grid;  
+        grid-template-columns: 40% 30% 30%;
+    }
+
+
+
+    .footer-left{
+        padding-left: 6.5rem;
+        padding-right:4rem ;
+
+    }
+
+    .footer-left p{
+        font-size:.8rem;
+        line-height: 1.3rem;
+        font-weight: 500;
+    }
+
+    .footer-middle{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top:0 ;
+        padding-left: 3rem;
+        gap: 2rem;
+    }
+
+    li{ 
+        cursor: pointer;
+        font-size: .8rem;
+    }
+
+    li:hover{
+        text-decoration: underline;
+    }
+
+    .footer-right{
+        padding-top: 0;
+        padding-left: 4rem;
+        justify-content: flex-start;
+        gap: .5rem;
+        cursor: pointer;
+    }
+
+    .img-borde:hover{
+        fill: #ff52bf;
+    }
+
+
+
+
+
+
 }
