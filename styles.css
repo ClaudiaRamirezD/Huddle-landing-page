@@ -254,13 +254,14 @@ li {
 
 
 
-/* svg{
+svg{
+     fill: white;
      border: 1px solid white;
-     padding: .5rem;
+     padding: 0.4rem;
      border-radius: 100px;
      width: 1.9rem;
      height: 1.9rem;
-} */
+}
 
 .copyright {
     padding-top: 1.5rem;
@@ -272,6 +273,7 @@ li {
 @media(min-width:600px) {
 
     .sec-1 {
+        height: 100vh;
         background-image: url(/images/bg-hero-desktop.svg);
         background-color: hsl(191°, 89%, 96%);
     }
@@ -479,9 +481,7 @@ li {
 
     .footer-right{
         padding-top: 0;
-        padding-left: 4rem;
-        justify-content: flex-start;
-        gap: .5rem;
+        gap: .7rem;
         cursor: pointer;
     }
 
@@ -489,9 +489,39 @@ li {
         fill: #ff52bf;
     }
 
+    .svg-pink:hover{
+        fill: #ff52bf;
+        border: 1px solid #ff52bf;
 
+    }
 
+    .copyright{
+        padding-top: 0;
+        width: 100vw;
+        text-align: end;
+        padding-right: 7rem;
+        padding-bottom: 5rem;
 
+    }
+}
 
+@media(min-width:1400px) {
+    button{
+        font-size: 1rem;
+    }
 
+    .landing h1 {
+        font-size: 2.7rem;
+    }
+
+    .landing-text{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    .pink{
+        padding: 0.9rem 0;
+        width: 45%;
+        font-size: .8rem;
+    }
 }
